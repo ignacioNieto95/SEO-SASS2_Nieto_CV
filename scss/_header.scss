@@ -1,0 +1,31 @@
+header{
+    margin: 0;
+    nav{
+        margin: 0;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(rgba(128, 155, 228, 0.7), rgba(128, 155, 228, 0.7));
+        .lista{
+            list-style: none;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .item{
+                margin: 0.7rem;
+                text-decoration: none;
+                font-size: 0.9rem;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    &:hover{
+                        color: white;
+                        transition: .3s;
+                        }
+                }
+            }
+                   
+        }
+    }
+}

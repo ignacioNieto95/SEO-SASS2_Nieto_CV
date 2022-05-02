@@ -1,0 +1,81 @@
+@media (max-width: 670px){
+    header nav .lista{
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    header nav{
+        justify-content: center;
+    }
+
+    main .pregunta-impar{
+        flex-direction: column;
+    }
+
+    main .respuesta{
+        padding: 0;;
+    }
+
+    main .pregunta-par{
+        flex-direction: column;
+    }
+
+    main .hobbieImpar{
+        flex-direction: column;
+    }
+
+    main .hobbiePar{
+        flex-direction: column;
+    }
+
+    main .hobbieText{
+        padding: 1rem 0;
+    }
+
+    .gridExperiencia{
+        flex-direction: column;
+    }
+
+    .chico{
+        width: 250px;
+    }
+
+    .img-pregunta{
+        margin-bottom: 15px;
+    }
+
+    .pregunta1{
+        flex-direction: column;
+        margin-top: 1px;
+    }
+
+        
+}
+
+@media (max-width: 1100px){
+    main .pregunta-impar{
+        flex-direction: column;
+    }
+
+    main .respuesta{
+        padding: 0;;
+    }
+
+    main .pregunta-par{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px){
+    main .hobbieImpar{
+        flex-direction: column;
+    }
+
+    main .hobbiePar{
+        flex-direction: column;
+    }
+
+    main .hobbieText{
+        padding: 1rem 0;
+    }
+}

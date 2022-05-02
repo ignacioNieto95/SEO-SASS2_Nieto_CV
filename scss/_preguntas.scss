@@ -1,0 +1,33 @@
+main{
+    .pregunta-impar{
+        display:flex;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin: 3rem;
+        align-items: center;
+        .pregunta1{
+            display: flex;
+            align-items: center;
+            padding: 1rem 2rem;
+            .img-pregunta{
+                margin: 2rem;
+            }
+        }
+    }
+    .pregunta-par{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin: 2rem;
+        align-items: center;
+        .pregunta1{
+            display: flex;
+            align-items: center;
+            padding: 1rem 2rem;
+            .img-pregunta{
+                margin: 2rem;
+            }
+        }
+    }
+}

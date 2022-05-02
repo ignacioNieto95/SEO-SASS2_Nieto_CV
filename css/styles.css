@@ -1,0 +1,417 @@
+header {
+  margin: 0;
+}
+header nav {
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(128, 155, 228, 0.7), rgba(128, 155, 228, 0.7));
+}
+header nav .lista {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header nav .lista .item {
+  margin: 0.7rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+header nav .lista .item a {
+  text-decoration: none;
+  color: black;
+}
+header nav .lista .item a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+main {
+  text-align: center;
+}
+main .gridInicio {
+  display: grid;
+}
+main .gridInicio .imagen-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+main .gridInicio .imagen-inicio .profile-image {
+  border-radius: 100%;
+  margin-top: 3rem;
+  grid-area: "profile-image";
+}
+main .gridInicio .imagen-inicio .item-imagen {
+  background-color: #ffe672;
+  animation-name: roll-in-blurred-top;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+main .gridInicio .at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+main .gridInicio .at-container .h1Inicio {
+  margin: 1rem;
+  font-family: "Shadows Into Light", cursive;
+}
+main .gridInicio .at-container .animacion-presentacion {
+  color: black;
+  animation-name: focus-in-expand;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+main .gridInicio .at-container .h2Inicio {
+  padding: 1rem;
+  grid-area: "h2Inicio";
+}
+main .gridInicio .presentacion {
+  margin-top: 3rem;
+  color: black;
+  grid-area: "presentacion";
+}
+main .gridInicio .container {
+  padding: 0.5rem 3rem;
+  max-width: 100%;
+}
+main .gridInicio .container .texto-presentacion {
+  color: black;
+  grid-area: "texto-presentacion";
+}
+main .gridInicio .container .texto-presentacion a {
+  text-decoration: none;
+  color: black;
+}
+main .gridInicio .container .texto-presentacion a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+footer {
+  background: linear-gradient(rgba(128, 155, 228, 0.7), rgba(128, 155, 228, 0.7));
+  padding-top: 2rem;
+  text-align: center;
+  height: 20vh;
+  margin-top: 2rem;
+}
+footer .pie-pagina {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: black;
+}
+footer .pie-pagina a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-pie-pagina {
+  margin-top: 8rem;
+}
+
+.contact-main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-main .contact-text {
+  margin-top: 2rem;
+}
+.contact-main .contact-text .p-text {
+  margin-top: 2rem;
+}
+.contact-main .datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+.contact-main .datos .btn-enviar {
+  margin-top: 1rem;
+}
+
+main .pregunta-impar {
+  display: flex;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 3rem;
+  align-items: center;
+}
+main .pregunta-impar .pregunta1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+main .pregunta-impar .pregunta1 .img-pregunta {
+  margin: 2rem;
+}
+main .pregunta-par {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 2rem;
+  align-items: center;
+}
+main .pregunta-par .pregunta1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+main .pregunta-par .pregunta1 .img-pregunta {
+  margin: 2rem;
+}
+
+.formacion-titulo {
+  margin: 2rem;
+}
+
+.gridExperiencia {
+  display: flex;
+  flex-direction: column;
+}
+.gridExperiencia .exp1 {
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: experiencia1;
+}
+.gridExperiencia .exp2 {
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: experiencia2;
+}
+.gridExperiencia .exp3 {
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: experiencia3;
+}
+.gridExperiencia .exp4 {
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: experiencia4;
+}
+
+.gridFormacion {
+  display: flex;
+  flex-direction: column;
+}
+.gridFormacion .formacion1 {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: formacion1;
+}
+.gridFormacion .formacion2 {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: formacion2;
+}
+.gridFormacion .formacion3 {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: formacion3;
+}
+.gridFormacion .formacion4 {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  grid-area: formacion4;
+}
+.gridFormacion .image-size {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.hobbieContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobbieImpar {
+  display: flex;
+  align-items: center;
+  margin: 5rem 10rem 5rem 10rem;
+}
+.hobbieImpar .hobbieText {
+  padding: 0 5rem 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hobbieImpar .hobbieText .chico {
+  width: 250px;
+}
+
+.hobbiePar {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 5rem 10rem 5rem 10rem;
+}
+.hobbiePar .hobbieText {
+  padding: 0 5rem 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hobbiePar .hobbieText .chico {
+  width: 250px;
+}
+
+.animacion-hobbies {
+  -webkit-animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.animacion-presentacion {
+  color: black;
+  animation-name: focus-in-expand;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@media (max-width: 670px) {
+  header nav .lista {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  main .pregunta-impar {
+    flex-direction: column;
+  }
+
+  main .respuesta {
+    padding: 0;
+  }
+
+  main .pregunta-par {
+    flex-direction: column;
+  }
+
+  main .hobbieImpar {
+    flex-direction: column;
+  }
+
+  main .hobbiePar {
+    flex-direction: column;
+  }
+
+  main .hobbieText {
+    padding: 1rem 0;
+  }
+
+  .gridExperiencia {
+    flex-direction: column;
+  }
+
+  .chico {
+    width: 250px;
+  }
+
+  .img-pregunta {
+    margin-bottom: 15px;
+  }
+
+  .pregunta1 {
+    flex-direction: column;
+    margin-top: 1px;
+  }
+}
+@media (max-width: 1100px) {
+  main .pregunta-impar {
+    flex-direction: column;
+  }
+
+  main .respuesta {
+    padding: 0;
+  }
+
+  main .pregunta-par {
+    flex-direction: column;
+  }
+}
+@media (max-width: 900px) {
+  main .hobbieImpar {
+    flex-direction: column;
+  }
+
+  main .hobbiePar {
+    flex-direction: column;
+  }
+
+  main .hobbieText {
+    padding: 1rem 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

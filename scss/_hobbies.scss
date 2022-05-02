@@ -1,0 +1,36 @@
+.hobbieContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbieImpar{
+    display: flex;
+    align-items: center;
+    margin: 5rem 10rem 5rem 10rem;
+    .hobbieText{
+        padding: 0 5rem 0 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .chico{
+            width: 250px;
+        }
+    }
+}
+
+.hobbiePar{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 5rem 10rem 5rem 10rem;
+    .hobbieText{
+        padding: 0 5rem 0 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .chico{
+            width: 250px;
+        }
+    }
+}

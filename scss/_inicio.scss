@@ -1,0 +1,72 @@
+main{
+    text-align: center;
+    .gridInicio{
+        display: grid;
+        .imagen-inicio{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            .profile-image{
+                border-radius: 100%;
+                margin-top: 3rem;
+                grid-area: "profile-image";
+            }
+            .item-imagen{
+                background-color:#ffe672;
+                animation-name: roll-in-blurred-top;
+                animation-duration: 1s;
+                animation-timing-function: ease;
+                animation-delay: 0s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: none;
+            }
+        }
+        .at-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            .h1Inicio{
+                margin: 1rem;
+                font-family: 'Shadows Into Light', cursive;
+            }
+            .animacion-presentacion{
+                color: black;
+                animation-name: focus-in-expand;
+                animation-duration: 1s;
+                animation-timing-function: ease;
+                animation-delay: 0s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-fill-mode: none;
+            }
+            .h2Inicio{
+                padding: 1rem;
+                grid-area: "h2Inicio";
+            }
+        }
+        .presentacion{
+            margin-top: 3rem;
+            color: black;
+            grid-area: "presentacion";
+        }
+        .container{
+            padding: 0.5rem 3rem;
+            max-width: 100%;
+            .texto-presentacion{
+                color: black;
+                grid-area: "texto-presentacion";
+                a{
+                    text-decoration: none;
+                    color: black;
+                    &:hover{
+                        color: white;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+}

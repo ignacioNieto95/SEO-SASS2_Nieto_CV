@@ -1,0 +1,25 @@
+
+.contact-main{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .contact-text{
+        margin-top: 2rem;
+        .p-text{
+            margin-top: 2rem;
+        }
+    }
+    .datos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        .btn-enviar{
+            margin-top: 1rem;
+        }    
+    }
+         
+}    
+
+
