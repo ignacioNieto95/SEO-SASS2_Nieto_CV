@@ -20,17 +20,6 @@
 }
 
 .hobbiePar{
-    display: flex;
-    align-items: center;
+    @extend .hobbieImpar;
     flex-direction: row-reverse;
-    margin: 5rem 10rem 5rem 10rem;
-    .hobbieText{
-        padding: 0 5rem 0 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .chico{
-            width: 250px;
-        }
-    }
 }

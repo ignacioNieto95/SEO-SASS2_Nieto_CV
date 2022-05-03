@@ -173,7 +173,7 @@ main .pregunta-par {
   display: flex;
   flex-direction: column;
 }
-.gridExperiencia .exp1 {
+.gridExperiencia .exp1, .gridExperiencia .exp4, .gridExperiencia .exp3, .gridExperiencia .exp2 {
   align-items: center;
   align-content: center;
   margin: 1rem;
@@ -181,24 +181,12 @@ main .pregunta-par {
   grid-area: experiencia1;
 }
 .gridExperiencia .exp2 {
-  align-items: center;
-  align-content: center;
-  margin: 1rem;
-  padding: 1rem;
   grid-area: experiencia2;
 }
 .gridExperiencia .exp3 {
-  align-items: center;
-  align-content: center;
-  margin: 1rem;
-  padding: 1rem;
   grid-area: experiencia3;
 }
 .gridExperiencia .exp4 {
-  align-items: center;
-  align-content: center;
-  margin: 1rem;
-  padding: 1rem;
   grid-area: experiencia4;
 }
 
@@ -206,28 +194,19 @@ main .pregunta-par {
   display: flex;
   flex-direction: column;
 }
-.gridFormacion .formacion1 {
+.gridFormacion .formacion1, .gridFormacion .formacion4, .gridFormacion .formacion3, .gridFormacion .formacion2 {
   display: block;
   margin: 1rem;
   padding: 1rem;
   grid-area: formacion1;
 }
 .gridFormacion .formacion2 {
-  display: block;
-  margin: 1rem;
-  padding: 1rem;
   grid-area: formacion2;
 }
 .gridFormacion .formacion3 {
-  display: block;
-  margin: 1rem;
-  padding: 1rem;
   grid-area: formacion3;
 }
 .gridFormacion .formacion4 {
-  display: block;
-  margin: 1rem;
-  padding: 1rem;
   grid-area: formacion4;
 }
 .gridFormacion .image-size {
@@ -241,35 +220,23 @@ main .pregunta-par {
   align-items: center;
 }
 
-.hobbieImpar {
+.hobbieImpar, .hobbiePar {
   display: flex;
   align-items: center;
   margin: 5rem 10rem 5rem 10rem;
 }
-.hobbieImpar .hobbieText {
+.hobbieImpar .hobbieText, .hobbiePar .hobbieText {
   padding: 0 5rem 0 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hobbieImpar .hobbieText .chico {
+.hobbieImpar .hobbieText .chico, .hobbiePar .hobbieText .chico {
   width: 250px;
 }
 
 .hobbiePar {
-  display: flex;
-  align-items: center;
   flex-direction: row-reverse;
-  margin: 5rem 10rem 5rem 10rem;
-}
-.hobbiePar .hobbieText {
-  padding: 0 5rem 0 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.hobbiePar .hobbieText .chico {
-  width: 250px;
 }
 
 .animacion-hobbies {
@@ -345,7 +312,7 @@ main .pregunta-par {
     flex-direction: column;
   }
 
-  main .hobbieImpar {
+  main .hobbieImpar, main .hobbiePar {
     flex-direction: column;
   }
 
@@ -388,7 +355,7 @@ main .pregunta-par {
   }
 }
 @media (max-width: 900px) {
-  main .hobbieImpar {
+  main .hobbieImpar, main .hobbiePar {
     flex-direction: column;
   }
 
