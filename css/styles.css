@@ -146,36 +146,23 @@ footer .pie-pagina a {
   margin-top: 1rem;
 }
 
-main .pregunta-impar {
+main .pregunta-impar, main .pregunta-par {
   display: flex;
   padding-left: 4rem;
   padding-right: 4rem;
   margin: 3rem;
   align-items: center;
 }
-main .pregunta-impar .pregunta1 {
+main .pregunta-impar .pregunta1, main .pregunta-par .pregunta1 {
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
 }
-main .pregunta-impar .pregunta1 .img-pregunta {
+main .pregunta-impar .pregunta1 .img-pregunta, main .pregunta-par .pregunta1 .img-pregunta {
   margin: 2rem;
 }
 main .pregunta-par {
-  display: flex;
   flex-direction: row-reverse;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  margin: 2rem;
-  align-items: center;
-}
-main .pregunta-par .pregunta1 {
-  display: flex;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-main .pregunta-par .pregunta1 .img-pregunta {
-  margin: 2rem;
 }
 
 .formacion-titulo {
@@ -346,7 +333,7 @@ main .pregunta-par .pregunta1 .img-pregunta {
     justify-content: center;
   }
 
-  main .pregunta-impar {
+  main .pregunta-impar, main .pregunta-par {
     flex-direction: column;
   }
 
@@ -388,7 +375,7 @@ main .pregunta-par .pregunta1 .img-pregunta {
   }
 }
 @media (max-width: 1100px) {
-  main .pregunta-impar {
+  main .pregunta-impar, main .pregunta-par {
     flex-direction: column;
   }
 
